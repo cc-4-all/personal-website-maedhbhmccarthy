@@ -1,58 +1,78 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  scroll-behavior: smooth;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fdfcf2;
+    
 }
 
 nav {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  background: lightgray;
-  padding: 25px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    background-color: #FFFACD;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(156, 111, 78);
 }
 
-main {
-  padding-top: 55px;
-  width: 1000px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+ul {
+    display: flex;
+    list-style: none;
+    width: 25%;
+    justify-content: space-between;
 }
 
-main h2 {
-  margin-top: 10px;
+div {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-footer {
-  background: lightgray;
-  padding: 25px;
-  text-align: center;
-  width: 100%;
-  bottom: 0;
-  margin-top: 25px;
+ h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(156, 111, 78);
+    font-weight: 400;
+    font-size: 25px;
 }
 
-.profile-picture {
-  border-radius: 100%;
-
-  transition: all ease-in-out 300ms;
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: saddlebrown;
+    font-weight: 900;
+    font-size: 28;
+    display: flex;
+    text-align: center;
 }
 
-.profile-item {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.initials {
-  color: blueviolet;
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:25px;
+    font-weight: 600;
+    color: rgb(156, 111, 78);
+    text-align: center;
 }
 
 img {
-  margin-top: 10px;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    width:60%;
 }
+
+.container{
+    display:flex;
+}
+
+main{
+    margin:10px;
+}
+
+footer {
+    color: saddlebrown;
+    font-size: 18;
+    font-family: 'Times New Roman', Times, serif;
+}
+
